@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripcion al Newsletter</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body class="cuerpoNews">
+    <section>
+    <h1>Inscribite a nuestro Newsletter para promociones y descuentos!👇</h1>
+    <hr>
+    </section>
+
+    <fieldset>
+    <form class="formulario" action="enviar.php" method="GET">
+        
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre"> <!-- Tipo text -->
+        <hr>
+        <label for="email">Email</label>
+        <input type="text" id="Email" required> <!-- Tipo email -->
+        <hr>
+        <label for="pass">Contraseña</label>
+        <input type="password" name="" id="pass"> <!-- Tipo password -->
+        <hr>
+
+        <input type="radio" name="sexo"> Hombre <input type="radio" name="sexo" id=""> Mujer
+        <hr>
+            
+        <label for="paises">Paises</label>
+        <select name="paises" id="paises">
+            <option value="arg" selected>Argentina</option>
+            <option value="chi">Chile</option>
+            <option value="per">Peru</option>
+            <option value="uru">Uruguay</option>
+            <option value="bra">Brasil</option>
+        </select>
+        <hr>
+        <input type="checkbox" name="acepta" id="acepta"> Acepta Terminos y Condiciones 
+        <input type="submit" value="Enviar ahora">
+        <input type="reset" value="Limpiar">
+        </form>
+    </fieldset>    
+    </form>
+
+    <div class="botonAtras">
+        <a href="./index.html">
+        <img src="./images/atras.png">
+        </a>
+    </div>
+
+</body>
+</html>

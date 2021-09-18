@@ -1,0 +1,199 @@
+/* ---------------------- RESPONSIVE ---------------------- */
+
+/* INDEX */
+
+/* ---------------------- TELEFONOS ---------------------- */
+
+@media screen and (min-width: 320px) {
+    .cuerpo {
+        background-color: rgb(219, 158, 100);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cuerpo {
+       background-color: rgb(219, 158, 100);
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .grid-container {
+        background-color: rgb(219, 158, 100);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .grid-container {
+       background-color: rgb(219, 158, 100);
+    }
+}
+
+/* ---------------------- TABLETS ---------------------- */
+
+@media screen and (min-width: 768px) {
+    .cuerpo {
+        background-color: rgb(205, 255, 164);
+    }
+} 
+
+@media screen and (min-width: 768px) {
+    .big-image {
+        background-color: rgb(205, 255, 164);
+    }
+} 
+
+@media screen and (min-width: 768px) {
+    .grid-container {
+        background-color: rgb(205, 255, 164);
+    }
+}
+
+/* ---------------------- ESCRITORIOS ---------------------- */
+
+@media screen and (min-width: 1024px) {
+    .cuerpo {
+        background-color: #cfbc7c;;
+    }
+} 
+
+@media screen and (min-width: 1024px) {
+    .grid-container {
+        background-color: #cfbc7c;;
+    }
+} 
+
+/* ---------------------- RESPONSIVE ---------------------- */
+
+/* PRODUCTOS */
+
+/* ---------------------- TELEFONOS ---------------------- */
+
+@media screen and (min-width: 320px) {
+    .cuerpoProductos {
+        background-color: rgb(219, 158, 100);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cuerpoProductos {
+       background-color: rgb(219, 158, 100);
+    }
+}
+
+/* ---------------------- TABLETS ---------------------- */
+
+@media screen and (min-width: 768px) {
+    .cuerpoProductos {
+        background-color: rgb(205, 255, 164);
+    }
+} 
+
+/* ---------------------- ESCRITORIOS ---------------------- */
+
+@media screen and (min-width: 1024px) {
+    .cuerpoProductos {
+        background-color: #cfbc7c;;
+    }
+} 
+
+/* ---------------------- RESPONSIVE ---------------------- */
+
+/* NEWSLETTER */
+
+/* ---------------------- TELEFONOS ---------------------- */
+
+@media screen and (min-width: 320px) {
+    .cuerpoNews {
+        background-color: rgb(219, 158, 100);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cuerpoNews {
+       background-color: rgb(219, 158, 100);
+    }
+}
+
+/* ---------------------- TABLETS ---------------------- */
+
+@media screen and (min-width: 768px) {
+    .cuerpoNews {
+        background-color: rgb(205, 255, 164);
+    }
+} 
+
+/* ---------------------- ESCRITORIOS ---------------------- */
+
+@media screen and (min-width: 1024px) {
+    .cuerpoNews {
+        background-color: #cfbc7c;;
+    }
+} 
+
+/* ---------------------- RESPONSIVE ---------------------- */
+
+/* DONDE ESTAMOS */
+
+/* ---------------------- TELEFONOS ---------------------- */
+
+@media screen and (min-width: 320px) {
+    .cuerpoDonde {
+        background-color: rgb(219, 158, 100);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cuerpoDonde {
+       background-color: rgb(219, 158, 100);
+    }
+}
+
+/* ---------------------- TABLETS ---------------------- */
+
+@media screen and (min-width: 768px) {
+    .cuerpoDonde {
+        background-color: rgb(205, 255, 164);
+    }
+} 
+
+/* ---------------------- ESCRITORIOS ---------------------- */
+
+@media screen and (min-width: 1024px) {
+    .cuerpoDonde {
+        background-color: #cfbc7c;;
+    }
+} 
+
+/* ---------------------- RESPONSIVE ---------------------- */
+
+/* TABLA DE TALLES */
+
+/* ---------------------- TELEFONOS ---------------------- */
+
+@media screen and (min-width: 320px) {
+    .cuerpoTabla {
+        background-color: rgb(219, 158, 100);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cuerpoTabla {
+       background-color: rgb(219, 158, 100);
+    }
+}
+
+/* ---------------------- TABLETS ---------------------- */
+
+@media screen and (min-width: 768px) {
+    .cuerpoTabla {
+        background-color: rgb(205, 255, 164);
+    }
+} 
+
+/* ---------------------- ESCRITORIOS ---------------------- */
+
+@media screen and (min-width: 1024px) {
+    .cuerpoTabla {
+        background-color: #cfbc7c;;
+    }
+} 

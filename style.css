@@ -1,0 +1,374 @@
+/*INDEX*/
+body{
+    background-color: #cfbc7c;
+}
+
+
+header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    list-style: none;
+}
+
+header nav section ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header nav section ul li a {
+    display: flex;
+    list-style: none;
+    border: 1px solid white;
+    margin: 0px 10px; 
+}
+
+header nav section ul li a:hover{
+    background-color: navy;
+}
+
+header main h1 {
+    background-color: khaki;;
+}
+
+div h2 {
+    background-color: khaki;
+}
+
+/*COLORES*/
+/*BACKGROUND*/
+
+section h1 {
+    color: lightslategrey;
+    background-color: khaki;
+}
+
+section h2 {
+    background-color: khaki;
+}
+
+section h3 {
+    background-color: green;
+}
+
+section h3 {
+    background-color: khaki;
+}
+
+h1.bg-image {
+    height: 50px;
+    background-image: url(./images/jvlogo3.png);
+    background-color:#cfbc7c;
+    background-size: center;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+/*MODIFICADORES*/
+
+.adelanto {
+    text-transform: uppercase;
+}
+
+.adelanto {
+    background-color: #eee5ba;
+}
+
+.pieDePagina {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.redes {
+    background-color: khaki;
+    display: inline-flex;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*LIST-STYLE*/
+.info2 ul {
+    list-style: none;
+    text-align: left;
+}
+
+.adelanto {
+    text-align: center;
+}
+
+.adelanto iframe {
+    padding: 0 45px 0 45px;
+}
+
+/*GOOGLE FONT*/
+div h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*BOX MODEL*/
+div.boxModel {
+    width: 900px;
+    height: auto;
+    background-color: rgb(224, 188, 88);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    border: 5px solid black;
+    margin: auto;
+}
+
+/*Menu*/
+
+nav ul li a {
+    list-style: none;
+}
+
+nav ul li a {
+    color: blue
+}
+
+nav ul li a:hover{
+    color: lightseagreen
+}
+
+.menuPrincipal {
+    display:flex
+
+}
+
+/*CARRITO DE COMPRAS*/
+/*CARRITO DE COMPRAS*/
+/*CARRITO DE COMPRAS*/
+
+/*PRODUCTOS IMG*/
+.prendasTop img{
+    width: 200px;
+}
+
+.prendasBottom img{
+    width: 200px;
+}
+
+.prendasDenim img{
+    width: 200px;
+}
+
+/*BOTONES*/
+
+.boton {
+    background-color: honeydew;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    padding: 10px 10px;
+    text-align: center;
+    position: right;
+}
+
+.boton:hover {
+    background-color: cornflowerblue;
+    border: 2px solid black;
+ 
+}
+
+.botonWpp img {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 5px;
+}
+
+.botonWpp img:hover {
+    background-color: green;
+    border-radius: 150%;
+}
+
+.botonesRedes img {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+.botonAtras {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 5px;
+}
+
+.botonAtras img {
+    width: 50px;
+    height: 50px;
+}
+
+/*PRODUCTOS*/
+
+/*PRENDA TOP*/
+.contenidoTop{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.prendasTop {
+    padding: 2px 16px;
+    margin: 15px;
+    display: inline;
+    inline-size: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    position: relative; 
+}
+
+/*PRENDAS BOTTOM*/
+.contenidoBottom{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.prendasBottom {
+    padding: 2px 16px;
+    margin: 15px;
+    display: inline;
+    inline-size: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    position: relative; 
+}
+
+/*PRENDAS DENIM*/
+.contenidoDenim{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.prendasDenim {
+    padding: 2px 16px;
+    margin: 15px;
+    display: inline;
+    inline-size: unset;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    position: relative; 
+}
+
+/*FORMULARIO*/
+.formulario {
+    padding: 20px;
+}
+
+/*FLEXBOX*/
+.flex-conteiner {
+    background-color: darkslategray;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 300;
+    height: 150;
+    margin: 5px;
+}
+
+.visa {
+    height: 90px;
+    width: 150px;
+}
+
+.visa:hover {
+    background-color: khaki;
+}
+
+.master {
+    height: 90px;
+    width: 150px;
+}
+
+.master:hover {
+    background-color: khaki;
+}
+
+.amex {
+    height: 90px;
+    width: 150px;
+}
+
+.amex:hover {
+    background-color: khaki;
+}
+
+.infoPagos {
+    display: flex;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.grid-container {
+    background-color: khaki;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px auto 100px;
+    gap: 5px 10px;
+    width: 120rem;
+    justify-items: center;
+    align-items: stretch; 
+}
+
+.grid-item img {
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    margin: 0,2rem;
+    background-color: #cfbc7c;
+    border-radius: 100%;
+}
+
+.grid-item img:hover {
+    background-color: black;
+    transition: 1s;
+}
+
+.grid-container2 {
+    background-color: khaki;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 12px 12px 12px;
+    gap: 5px 10px;
+    font-size: 2rem;
+    justify-items: center;
+    align-items: inherit; 
+}
+
+h4 {
+    font-size: 2rem;
+    text-align: center;
+}
