@@ -62,20 +62,18 @@ section h3 {
 }
 
 h1.bg-image {
-    height: 50px;
+    height: 8rem;
+    width: 20rem;
     background-image: url(./images/jvlogo3.png);
     background-color:#cfbc7c;
     background-size: center;
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
-    padding: 20px;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 /*MODIFICADORES*/
-
-.adelanto {
-    text-transform: uppercase;
-}
 
 .adelanto {
     background-color: #eee5ba;
@@ -98,6 +96,15 @@ h1.bg-image {
 }
 
 /*LIST-STYLE*/
+
+.info {
+    text-align: center;
+}
+
+.info2 {
+    text-align: left;
+}
+
 .info2 ul {
     list-style: none;
     text-align: left;
@@ -199,9 +206,10 @@ nav ul li a:hover{
 }
 
 .botonesRedes img {
-    width: 50px;
-    height: 50px;
-    padding: 20px;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .botonAtras {
@@ -344,8 +352,8 @@ nav ul li a:hover{
 }
 
 .grid-item img {
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
     padding: 1rem;
     margin: 0,2rem;
     background-color: #cfbc7c;
@@ -363,12 +371,25 @@ nav ul li a:hover{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 12px 12px 12px;
     gap: 5px 10px;
-    font-size: 2rem;
     justify-items: center;
     align-items: inherit; 
 }
 
 h4 {
     font-size: 2rem;
+    text-align: center;
+}
+
+/* BOOTSTRAP */
+
+/* CARRUSEL */
+
+.card {
+    background-color:lightgoldenrodyellow;
+    display: inline-block;
+    margin: 2rem;
+}
+
+.preview {
     text-align: center;
 }

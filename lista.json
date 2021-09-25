@@ -1,0 +1,45 @@
+[
+    {
+      "precio": 800,
+      "id": 1,
+      "title": "Remera Rangers",
+      "thumbnailUrl": "https://static.dafiti.com.ar/p/bravo-9461-016497-1-zoom.jpg"
+    },
+    {
+      "precio": 600,
+      "id": 2,
+      "title": "Remera Jack",
+      "thumbnailUrl": "https://static.dafiti.com.ar/p/bravo-4942-576508-1-zoom.jpg"
+    },
+    {
+      "precio": 1000,
+      "id": 3,
+      "title": "Remera Tongo",
+      "thumbnailUrl": "https://static.dafiti.com.ar/p/bravo-3380-599308-1-zoom.jpg"
+    },
+    {
+      "precio": 1200,
+      "id": 4,
+      "title": "Remera Infierno",
+      "thumbnailUrl": "https://static.dafiti.com.ar/p/bravo-6045-511815-1-zoom.jpg"
+    },
+    {
+      "precio": 900,
+      "id": 5,
+      "title": "Jean Peter",
+      "thumbnailUrl": "https://static.dafiti.com.ar/p/panther-moda-4014-595546-1-zoom.jpg"
+    },
+    {
+      "precio": 1500,
+      "id": 6,
+      "title": "Pantalon ADTR",
+      "thumbnailUrl": "https://static.dafiti.com.ar/p/el-genoves-5496-475316-1-zoom.jpg"
+    },
+    {
+      "precio": 1500,
+      "id": 6,
+      "title": "Pantalon ADTR",
+      "thumbnailUrl": "https://static.dafiti.com.ar/p/el-genoves-5496-475316-1-zoom.jpg"
+    }
+  ]
+  
