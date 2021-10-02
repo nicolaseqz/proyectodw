@@ -232,6 +232,18 @@ nav ul li a:hover{
     height: 50px;
 }
 
+.botonesAyuda {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.botonesAyuda a:hover {
+    background-color: white;
+    transition: 0,1s;
+    color: black;
+} 
+
 /*PRODUCTOS*/
 
 /*PRENDA TOP*/
@@ -404,15 +416,4 @@ h4 {
 
 html {
     scroll-behavior: smooth;
-}
-
-.botonesAyuda {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.botonesAyuda a:hover {
-    background-color: white;
-    transition: 0,1s;
-    color: black;
 }
