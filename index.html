@@ -42,66 +42,45 @@
 <body class="cuerpo"> <!-- Es el cuerpo. Todo lo que mostramos en pantalla -->
 
     <hr>
+    <!--------------- INICIO CARROUSEL ---------------->
 
-    <section class="preview">
-        <h2>👇 NEW ARRIVALS 👇</h2>
-        </section>
-    
-    <hr>
-    <!--------------- INICIO NEW ARRIVALS ---------------->
-
-    <div class="card" style="width: 18rem;">
-        <img src="./images/remeradest1.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Remera COMIC</h5>
-          <p class="card-text"></p>
-          <a href="./productos.html" class="btn btn-primary">Ver más!</a>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/mens1.jpg" class="d-block w-100" alt="...">
         </div>
+        <div class="carousel-item">
+          <img src="./images/mens2.jpg" class="d-block w-100" alt="...">
+        </div>  
       </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="./images/remeradest2.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Remera SKULL</h5>
-        <p class="card-text"></p>
-        <a href="./productos.html" class="btn btn-primary">Ver más!</a>
-      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
-    <div class="card" style="width: 18rem;">
-        <img src="./images/remeradest5.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Remera KURT</h5>
-          <p class="card-text"></p>
-          <a href="./productos.html" class="btn btn-primary">Ver más!</a>
-        </div>
-      </div>
+    <!--------------- FIN CARROUSEL ---------------->
 
-    <div class="card" style="width: 18rem;">
-      <img src="./images/remera dest3.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Remera PR</h5>
-        <p class="card-text"></p>
-        <a href="./productos.html" class="btn btn-primary">Ver más!</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-        <img src="./images/remera dest4.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Remera BAD</h5>
-          <p class="card-text"></p>
-          <a href="./productos.html" class="btn btn-primary">Ver más!</a>
-        </div>
-      </div>
-    
-    <hr>
-    <!--------------- FIN NEW ARRIVALS ---------------->
+    <!--------------- INFO / BLOQUES DE PARRAFOS  ---------------->
     <section class="info">
-    <h2>Próximamente con local a la calle.</h2>
-    <p>Somos una marca de ropa para hombres. Buscamos darte ese toque especial para cada ocasión!</p>
+    <h2>Te dejamos algunas ayudas!</h2>
+    <div class="botonesAyuda" id="botonesAyuda">
+      <button type="button" class="btn btn-light"><a href="#newArrivals">  New Arrivals</a></button>
+      <button type="button" class="btn btn-light"><a href="#mediosPago">Medios de Pago</a></button>
+      <button type="button" class="btn btn-light"><a href="#adelanto">ADELANTO</a></button>
+      <button type="button" class="btn btn-light"><a href="#redes">Redes</a></button>
+    </div>
     </section>
-    
+  
     <hr>
     
     <div class="info2">
@@ -115,10 +94,79 @@
 
     <hr>
 
+    <section class="info3">
+      <h2>Próximamente con local a la calle.</h2>
+      <p>Somos una marca de ropa para hombres. Buscamos darte ese toque especial para cada ocasión!</p>
+      </section>
+
+    <hr>
+
+    <!--------------- FIN INFO / BLOQUES DE PARRAFOS ---------------->
+
+    <hr>
+
+        <!--------------- INICIO NEW ARRIVALS ---------------->
+        <section class="preview" id="newArrivals">
+          <h2>👇 NEW ARRIVALS 👇</h2>
+          </section>
+      
+      <hr>
+  
+      <div class="card" style="width: 18rem;">
+          <img src="./images/remeradest1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Remera COMIC</h5>
+            <p class="card-text"></p>
+            <a href="./productos.html" class="btn btn-primary">Ver más!</a>
+          </div>
+        </div>
+  
+      <div class="card" style="width: 18rem;">
+        <img src="./images/remeradest2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Remera SKULL</h5>
+          <p class="card-text"></p>
+          <a href="./productos.html" class="btn btn-primary">Ver más!</a>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 18rem;">
+          <img src="./images/remeradest5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Remera KURT</h5>
+            <p class="card-text"></p>
+            <a href="./productos.html" class="btn btn-primary">Ver más!</a>
+          </div>
+        </div>
+  
+      <div class="card" style="width: 18rem;">
+        <img src="./images/remera dest3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Remera PR</h5>
+          <p class="card-text"></p>
+          <a href="./productos.html" class="btn btn-primary">Ver más!</a>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 18rem;">
+          <img src="./images/remera dest4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Remera BAD</h5>
+            <p class="card-text"></p>
+            <a href="./productos.html" class="btn btn-primary">Ver más!</a>
+          </div>
+        </div>
+      
+      <hr>
+      <!--------------- FIN NEW ARRIVALS ---------------->
+    
+    <!--------------- INICIO MAYORISTA ---------------->
     <div class="boxModel"> 
         <p>Información Frecuente!</p>
         <button class="botonMayorista" id="infoMayorista"><strong>Venta Mayorista - Click Aquí!</strong></button>
     </div>
+
+    <!--------------- FIN MAYORISTA ---------------->
 
     <hr>
 
@@ -138,7 +186,9 @@
 
     <hr>
 
-   <section class="adelanto"> 
+    <!--------------- INICIO VIDEOS + MEDIOS DE PAGO ---------------->
+
+   <section class="adelanto" id="adelanto"> 
     <h2>No te pierdas todo lo que fue FW'21 y lo que viene SS'22 💥</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/6PTWXlVQqHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/DHUo-X86NCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -146,7 +196,7 @@
 
    <hr>
 
-   <div class="flex-conteiner">
+   <div class="flex-conteiner" id="mediosPago">
        <h3 class="infoPagos">MEDIOS DE PAGO (Tocá) 👉</h3>
        <div class="box"><img class="visa" src="./images/visa.png"></div>
        <div class="box"><img class="master" src="./images/mastercard.png"></div>
@@ -155,11 +205,15 @@
 
    <hr>
 
+   <!--------------- FIN VIDEOS + MEDIOS DE PAGO ---------------->
+
+   <!--------------- INICIO REDES ---------------->
+
    <section class="redes">
        <p>Seguinos en las redes!</p>
    </section>
 
-   <div class="botonesRedes">
+   <div class="botonesRedes" id="redes">
         <a href="https://www.instagram.com/" target="_blank">
         <img src="./images/instagram.png">
         </a>
@@ -170,6 +224,10 @@
         <img src="./images/spotify.png">
         </a>
    </div>
+  
+   <!--------------- FIN REDES ---------------->
+
+   <!--------------- INICIO WHATSAPP ---------------->
 
    <div class="botonWpp">
         <a href="https://api.whatsapp.com/send?phone=Tu-n%C3%B9mero-aqu%C3%AD" target="_blank">
@@ -177,9 +235,16 @@
         </a>
    </div>
 
+   <!--------------- FIN WHATSAPP ---------------->
+
+   <!--------------- INICIO FOOTER ---------------->
+
    <footer class="pieDePagina">
        Todos los derechos reservados para JV ®.
    </footer>
+
+   <!--------------- FIN FOOTER ---------------->
+
    <!--BOOTSTRAP-->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
    <!--BOOTSTRAP-->
