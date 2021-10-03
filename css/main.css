@@ -1,0 +1,70 @@
+/* COLORES
+/*BACKGROUND*/
+section h1 {
+  color: lightslategrey;
+  background-color: khaki;
+}
+
+section h2 {
+  background-color: khaki;
+}
+
+section h3 {
+  background-color: green;
+}
+
+section h3 {
+  background-color: khaki;
+}
+
+.btn-zayn {
+  display: inline;
+  padding: 10px 20px;
+  border: 1px solid black;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 300;
+  border-radius: 30px;
+  color: black;
+  background: white;
+}
+
+.btn-zayn:hover {
+  color: white;
+  background-color: black;
+}
+
+.btn-danny {
+  display: inline;
+  padding: 10px 20px;
+  border: 1px solid black;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 300;
+  border-radius: 30px;
+  color: black;
+  background: white;
+}
+
+.btn-danny:hover {
+  color: white;
+  background-color: black;
+}
+
+.btn-jared {
+  display: inline;
+  padding: 10px 20px;
+  border: 1px solid black;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 300;
+  border-radius: 30px;
+  color: black;
+  background: white;
+}
+
+.btn-jared:hover {
+  color: white;
+  background-color: black;
+}
+/*# sourceMappingURL=main.css.map */
