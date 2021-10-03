@@ -1,4 +1,42 @@
 @import "colores";
 
+// MIXIN
 
+@mixin btn ($col, $bg) {
+    display: inline;
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    border-radius: 30px;
+    color: $col;
+    background: $bg;
+}
 
+.btn-zayn {
+    @include btn (black, white);
+}
+
+.btn-zayn:hover {
+    color: white;
+    background-color: black
+}
+
+.btn-danny {
+    @include btn (black, white);
+}
+
+.btn-danny:hover {
+    color: white;
+    background-color: black
+}
+
+.btn-jared {
+    @include btn (black, white);
+}
+
+.btn-jared:hover {
+    color: white;
+    background-color: black
+}

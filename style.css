@@ -29,7 +29,7 @@ header nav section ul li a {
 }
 
 header nav section ul li a:hover{
-    background-color: navy;
+    color: white;
 }
 
 header main h1 {
@@ -398,6 +398,7 @@ nav ul li a:hover{
 h4 {
     font-size: 2rem;
     text-align: center;
+    padding: 2rem;
 }
 
 /* CARRUSEL */
@@ -410,6 +411,12 @@ h4 {
 
 .preview {
     text-align: center;
+}
+
+.botonesEmbajadores {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
 }
 
 /* SCROLL */
