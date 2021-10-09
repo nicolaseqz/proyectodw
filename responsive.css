@@ -6,45 +6,82 @@
 
 @media screen and (min-width: 320px) {
     .cuerpo {
-        background-color: rgb(219, 158, 100);
+        background-color: #cfbc7c;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cuerpo {
-       background-color: rgb(219, 158, 100);
+       background-color: #cfbc7c;
     }
 }
 
 @media screen and (min-width: 320px) {
     .grid-container {
-        background-color: rgb(219, 158, 100);
+        background-color: #cfbc7c;
     }
 }
 
 @media screen and (max-width: 767px) {
     .grid-container {
-       background-color: rgb(219, 158, 100);
+       background-color: #cfbc7c;
     }
 }
+
+@media screen and (min-width: 320px) {
+    .card {
+        background-color: lightyellow;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+       background-color: lightyellow;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .botonesAyuda {
+        background-color: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .botonesAyuda {
+       background-color: auto;
+    }
+}
+
 
 /* ---------------------- TABLETS ---------------------- */
 
 @media screen and (min-width: 768px) {
     .cuerpo {
-        background-color: rgb(205, 255, 164);
+        background-color: #cfbc7c;
     }
 } 
 
 @media screen and (min-width: 768px) {
     .big-image {
-        background-color: rgb(205, 255, 164);
+        background-color: #cfbc7c;
     }
 } 
 
 @media screen and (min-width: 768px) {
     .grid-container {
-        background-color: rgb(205, 255, 164);
+        background-color: #cfbc7c;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        background-color: lightyellow;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .botonesAyuda {
+        background-color: auto;
     }
 }
 
@@ -61,6 +98,18 @@
         background-color: #cfbc7c;;
     }
 } 
+
+@media screen and (min-width: 1024px) {
+    .card {
+        background-color: lightyellow;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .botonesAyuda {
+        background-color: auto;
+    }
+}
 
 /* ---------------------- RESPONSIVE ---------------------- */
 
@@ -70,13 +119,13 @@
 
 @media screen and (min-width: 320px) {
     .cuerpoProductos {
-        background-color: rgb(219, 158, 100);
+        background-color: #cfbc7c;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cuerpoProductos {
-       background-color: rgb(219, 158, 100);
+       background-color: #cfbc7c;
     }
 }
 
@@ -84,7 +133,7 @@
 
 @media screen and (min-width: 768px) {
     .cuerpoProductos {
-        background-color: rgb(205, 255, 164);
+        background-color: #cfbc7c;
     }
 } 
 
@@ -92,7 +141,7 @@
 
 @media screen and (min-width: 1024px) {
     .cuerpoProductos {
-        background-color: #cfbc7c;;
+        background-color: #cfbc7c;
     }
 } 
 
@@ -104,13 +153,13 @@
 
 @media screen and (min-width: 320px) {
     .cuerpoNews {
-        background-color: rgb(219, 158, 100);
+        background-color: #cfbc7c;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cuerpoNews {
-       background-color: rgb(219, 158, 100);
+       background-color: #cfbc7c;
     }
 }
 
@@ -118,7 +167,7 @@
 
 @media screen and (min-width: 768px) {
     .cuerpoNews {
-        background-color: rgb(205, 255, 164);
+        background-color: #cfbc7c;
     }
 } 
 
@@ -126,7 +175,7 @@
 
 @media screen and (min-width: 1024px) {
     .cuerpoNews {
-        background-color: #cfbc7c;;
+        background-color: #cfbc7c;
     }
 } 
 
@@ -138,13 +187,13 @@
 
 @media screen and (min-width: 320px) {
     .cuerpoDonde {
-        background-color: rgb(219, 158, 100);
+        background-color: #cfbc7c;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cuerpoDonde {
-       background-color: rgb(219, 158, 100);
+       background-color: #cfbc7c;
     }
 }
 
@@ -152,7 +201,7 @@
 
 @media screen and (min-width: 768px) {
     .cuerpoDonde {
-        background-color: rgb(205, 255, 164);
+        background-color: #cfbc7c;
     }
 } 
 
@@ -160,7 +209,7 @@
 
 @media screen and (min-width: 1024px) {
     .cuerpoDonde {
-        background-color: #cfbc7c;;
+        background-color: #cfbc7c;
     }
 } 
 
@@ -172,13 +221,13 @@
 
 @media screen and (min-width: 320px) {
     .cuerpoTabla {
-        background-color: rgb(219, 158, 100);
+        background-color: #cfbc7c;
     }
-}
+
 
 @media screen and (max-width: 767px) {
     .cuerpoTabla {
-       background-color: rgb(219, 158, 100);
+       background-color: #cfbc7c;
     }
 }
 
@@ -186,7 +235,7 @@
 
 @media screen and (min-width: 768px) {
     .cuerpoTabla {
-        background-color: rgb(205, 255, 164);
+        background-color: #cfbc7c;
     }
 } 
 
@@ -194,6 +243,8 @@
 
 @media screen and (min-width: 1024px) {
     .cuerpoTabla {
-        background-color: #cfbc7c;;
+        background-color: #cfbc7c;
     }
-} 
+}
+
+}
