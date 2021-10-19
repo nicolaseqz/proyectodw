@@ -424,3 +424,16 @@ h4 {
 html {
     scroll-behavior: smooth;
 }
+
+.cuerpoProductos {
+    margin: 10px;
+}
+
+.nuevoMenu {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.tablaTabla {
+    margin: 30px;
+}
